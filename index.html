@@ -1,63 +1,302 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html id="html-root" dir="rtl" lang="ar">
 <head>
-  <meta charset="UTF-8">
-  <title>سياسة الخصوصية - رادار الاتصالات | Privacy Policy – Radar Communications</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>سياسة الخصوصية - رادار الاتصالات</title>
   <style>
     body {
       font-family: Arial, Tahoma, sans-serif;
       line-height: 1.6;
-      background-color: #f9f9f9;
       color: #333;
-      max-width: 900px;
+      max-width: 800px;
       margin: 0 auto;
       padding: 20px;
+      background-color: #f9f9f9;
     }
-    h1, h2 {
+    h1 {
       color: #2c3e50;
       border-bottom: 2px solid #3498db;
-      padding-bottom: 8px;
-      margin-top: 40px;
+      padding-bottom: 10px;
+      font-size: 28px;
     }
-    .section-ar, .section-en {
-      background-color: #fff;
+    h2 {
+      color: #2980b9;
+      margin-top: 25px;
+      font-size: 22px;
+    }
+    ul {
+      padding-right: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .container {
+      background-color: white;
       padding: 25px;
-      margin: 25px 0;
       border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     }
-    .section-ar { direction: rtl; text-align: right; }
-    .section-en { direction: ltr; text-align: left; }
     .footer {
+      margin-top: 30px;
       text-align: center;
-      font-size: 13px;
+      font-size: 14px;
       color: #7f8c8d;
-      margin-top: 40px;
+    }
+    .contact {
+      background-color: #f8f9fa;
+      padding: 15px;
+      border-radius: 5px;
+      margin: 20px 0;
+    }
+    .contact strong {
+      color: #2c3e50;
+    }
+    .last-updated {
+      font-style: italic;
+      color: #7f8c8d;
+      margin-bottom: 20px;
+    }
+    .lang-switch {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      z-index: 999;
+    }
+    .lang-switch button {
+      padding: 8px 14px;
+      font-size: 14px;
+      border: none;
+      background-color: #3498db;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
     }
   </style>
 </head>
 <body>
-
-  <!-- القسم العربي -->
-  <div class="section-ar">
-    <h1>سياسة الخصوصية لتطبيق "رادار الاتصالات"</h1>
-    <p><strong>آخر تحديث:</strong> 2025/7/22</p>
-    <p>نحن في "رادار الاتصالات" نولي أهمية قصوى لخصوصية وأمان بياناتك الشخصية...</p>
-    <!-- باقي محتوى سياسة الخصوصية بالعربية كما كتبته، يمكن لصقه هنا كاملاً -->
+  <div class="lang-switch">
+    <button onclick="switchLanguage()">English</button>
   </div>
 
-  <!-- القسم الإنجليزي -->
-  <div class="section-en">
-    <h1>Privacy Policy – Radar Communications App</h1>
-    <p><strong>Last Updated:</strong> 2025/7/22</p>
-    <p>At Radar Communications, we take your privacy and data security seriously...</p>
-    <!-- الترجمة الدقيقة للمحتوى العربي تظهر هنا، فقرة فقرة -->
+  <!-- Arabic Privacy Policy -->
+  <div class="container" id="arabic-content">
+    <!-- ضع هنا نصك العربي كما هو -->
+     <h1>سياسة الخصوصية لتطبيق "رادار الاتصالات"</h1>
+        <p class="last-updated">آخر تحديث: 2023/11/15</p>
+
+        <p>نحن في "رادار الاتصالات" نولي أهمية قصوى لخصوصية وأمان بياناتك الشخصية. تم تصميم هذه السياسة لتوضيح ممارساتنا المتعلقة بجمع واستخدام وحماية ومشاركة معلوماتك عند استخدام تطبيقنا. باستخدامك للتطبيق، فإنك توافق على الممارسات الموضحة في سياسة الخصوصية هذه.</p>
+
+        <h2>1. البيانات التي نجمعها</h2>
+        <ul>
+            <li>جهات الاتصال: نطلب إذن الوصول إلى جهات الاتصال فقط لتحسين نتائج البحث عن الأسماء وعرض معلومات المتصلين. لا تتم مزامنة جهات الاتصال مع الخادم إلا بعد موافقتك الصريحة.</li>
+            <li>سجل المكالمات: نستخدم سجل المكالمات لعرض سجل المكالمات وتوفير معلومات عن المتصلين.</li>
+            <li>حالة الهاتف: نستخدم حالة الهاتف للكشف عن المكالمات الواردة والصادرة وتقديم ميزات مثل تحديد هوية المتصل.</li>
+            <li>معلومات الجهاز: قد نجمع معلومات غير شخصية مثل نوع الجهاز، نظام التشغيل، وإصدار التطبيق لتحسين الخدمة وتشخيص المشكلات التقنية.</li>
+            <li>سجل البحث والمفضلة: يتم حفظ سجل البحث وجهات الاتصال المفضلة محليًا على جهازك فقط.</li>
+        </ul>
+
+        <h2>2. كيفية استخدام البيانات</h2>
+        <ul>
+            <li>تقديم وتحسين خدمة معرف المتصل.</li>
+            <li>عرض معلومات المتصلين بناءً على سجل المكالمات وجهات الاتصال.</li>
+            <li>تحسين تجربة المستخدم وتطوير ميزات جديدة.</li>
+            <li>حفظ إعداداتك وتفضيلاتك على جهازك.</li>
+            <li>تحليل استخدام التطبيق لتحسين الأداء وتجربة المستخدم (بشكل مجهول).</li>
+        </ul>
+
+        <h2>3. الأساس القانوني لمعالجة البيانات</h2>
+        <p>نعتمد في معالجة بياناتك على الأسس القانونية التالية:</p>
+        <ul>
+            <li>موافقتك الصريحة عند منح الأذونات للتطبيق.</li>
+            <li>المصلحة المشروعة في تقديم وتحسين خدماتنا.</li>
+            <li>الضرورة التعاقدية لتنفيذ شروط الخدمة المتفق عليها.</li>
+            <li>الامتثال للالتزامات القانونية عند الاقتضاء.</li>
+        </ul>
+
+        <h2>4. مشاركة البيانات</h2>
+        <p>لا نبيع أو نؤجر أو نتاجر ببياناتك الشخصية مع أطراف ثالثة. قد نشارك بياناتك في الحالات التالية فقط:</p>
+        <ul>
+            <li>بموافقتك الصريحة.</li>
+            <li>مع مقدمي الخدمات الموثوقين الذين يساعدوننا في تشغيل التطبيق وتقديم الخدمات، مع التزامهم بالحفاظ على سرية وأمان بياناتك.</li>
+            <li>للامتثال للمتطلبات القانونية أو التنظيمية أو استجابة لأمر قضائي أو مذكرة استدعاء.</li>
+            <li>لحماية حقوقنا أو ممتلكاتنا أو سلامة مستخدمينا أو الجمهور.</li>
+        </ul>
+
+        <h2>5. أمان البيانات</h2>
+        <p>نتخذ جميع التدابير الأمنية المعقولة والمناسبة لحماية بياناتك من الوصول غير المصرح به أو التعديل أو الإفصاح أو الإتلاف. يتم نقل البيانات بين التطبيق والخادم (عند الحاجة) بشكل آمن ومشفر باستخدام بروتوكولات التشفير القياسية.</p>
+        <p>ومع ذلك، لا يمكن ضمان أمان البيانات المرسلة عبر الإنترنت بشكل مطلق. بينما نبذل قصارى جهدنا لحماية معلوماتك الشخصية، لا يمكننا ضمان أمانها بنسبة 100%.</p>
+
+        <h2>6. الاحتفاظ بالبيانات</h2>
+        <p>نحتفظ ببياناتك الشخصية فقط للمدة اللازمة لتحقيق الأغراض المذكورة في سياسة الخصوصية هذه، ما لم يكن هناك حاجة أو متطلب قانوني للاحتفاظ بها لفترة أطول. عند إلغاء تثبيت التطبيق، سيتم حذف جميع البيانات المخزنة محليًا على جهازك.</p>
+
+        <h2>7. حماية خصوصية الأطفال</h2>
+        <p>تطبيقنا غير موجه للأطفال دون سن 13 عامًا، ولا نجمع عن علم أي معلومات شخصية من الأطفال دون هذا السن. إذا كنت والدًا أو وصيًا وتعتقد أن طفلك قد قدم لنا معلومات شخصية، يرجى الاتصال بنا وسنتخذ الخطوات اللازمة لحذف هذه المعلومات من سجلاتنا.</p>
+
+        <h2>8. الأذونات المطلوبة</h2>
+        <ul>
+            <li>الوصول إلى جهات الاتصال (اختياري، لتحسين البحث).</li>
+            <li>الوصول إلى سجل المكالمات (لعرض سجل المكالمات).</li>
+            <li>إدارة المكالمات الهاتفية (لتحديد هوية المتصل).</li>
+            <li>الاتصال بالإنترنت (للبحث عن معلومات المتصل عبر الإنترنت).</li>
+        </ul>
+
+        <h2>9. حقوق المستخدم</h2>
+        <p>اعتمادًا على موقعك، قد تتمتع بحقوق معينة فيما يتعلق ببياناتك الشخصية، بما في ذلك:</p>
+        <ul>
+            <li>الوصول إلى بياناتك الشخصية ومراجعتها.</li>
+            <li>تصحيح أو تحديث بياناتك غير الدقيقة.</li>
+            <li>حذف بياناتك الشخصية ("الحق في النسيان").</li>
+            <li>الاعتراض على معالجة بياناتك أو تقييدها.</li>
+            <li>نقل بياناتك (قابلية نقل البيانات).</li>
+            <li>سحب موافقتك في أي وقت.</li>
+        </ul>
+        <p>يمكنك ممارسة هذه الحقوق من خلال إعدادات التطبيق أو بالاتصال بنا مباشرة. يمكنك إلغاء الأذونات من إعدادات النظام، وسيظل بإمكانك استخدام الميزات التي لا تتطلب تلك الأذونات.</p>
+
+        <h2>10. الامتثال للوائح الخصوصية</h2>
+        <p>نحن ملتزمون بالامتثال للوائح وقوانين الخصوصية المعمول بها، بما في ذلك:</p>
+        <ul>
+            <li>اللائحة العامة لحماية البيانات (GDPR) للمستخدمين في الاتحاد الأوروبي.</li>
+            <li>قانون خصوصية المستهلك في كاليفورنيا (CCPA) للمستخدمين في كاليفورنيا.</li>
+            <li>قوانين الخصوصية المحلية الأخرى المعمول بها.</li>
+        </ul>
+
+        <h2>11. التغييرات على سياسة الخصوصية</h2>
+        <p>قد نقوم بتحديث سياسة الخصوصية هذه من وقت لآخر لتعكس التغييرات في ممارساتنا أو لأسباب تشغيلية أو قانونية أو تنظيمية أخرى. سنقوم بإخطارك بأي تغييرات جوهرية من خلال إشعار داخل التطبيق أو بوسائل أخرى مناسبة. نشجعك على مراجعة سياسة الخصوصية بشكل دوري للبقاء على اطلاع بكيفية حماية معلوماتك.</p>
+
+        <h2>12. التواصل معنا</h2>
+        <div class="contact">
+            <p>إذا كان لديك أي استفسارات أو مخاوف أو طلبات متعلقة بسياسة الخصوصية هذه أو ممارسات الخصوصية لدينا، يرجى التواصل معنا على:</p>
+            <p><strong>البريد الإلكتروني:</strong> hmhhmhhmh55@gmail.com</p>
+            <p>سنبذل قصارى جهدنا للرد على استفساراتك في أقرب وقت ممكن.</p>
+        </div>
+
+        <h2>13. موافقتك</h2>
+        <p>باستخدام تطبيق "رادار الاتصالات"، فإنك توافق على جمع واستخدام المعلومات وفقًا لسياسة الخصوصية هذه. إذا كنت لا توافق على هذه السياسة، يرجى عدم استخدام تطبيقنا.</p>
+    </div>
+
+    <div class="footer">
+        <p>© 2025 رادار الاتصالات. جميع الحقوق محفوظة.</p>
+    </div>
+</body>
+</html>
+
+  <!-- English Privacy Policy -->
+  <div class="container" id="english-content" style="display: none;">
+    <h1>Privacy Policy for "Radar Communications"</h1>
+    <p class="last-updated">Last Updated: 2023/11/15</p>
+    <p>We at "Radar Communications" place the utmost importance on the privacy and security of your personal data. This policy explains our practices regarding collection, use, protection, and sharing of your information when using our app. By using the app, you agree to the practices outlined in this policy.</p>
+
+    <h2>1. Data We Collect</h2>
+    <ul>
+      <li>Contacts: We request access to your contacts solely to improve name search results and display caller information. Contacts are only synced with the server upon your explicit consent.</li>
+      <li>Call History: We use call logs to display call history and provide caller information.</li>
+      <li>Phone Status: We use phone state to detect incoming and outgoing calls and provide features such as caller identification.</li>
+      <li>Device Info: We may collect non-personal info such as device type, OS, and app version to enhance service and diagnose technical issues.</li>
+      <li>Search History & Favorites: Stored locally on your device only.</li>
+    </ul>
+
+    <h2>2. How We Use Data</h2>
+    <ul>
+      <li>To provide and improve caller ID services.</li>
+      <li>To show caller details based on call logs and contacts.</li>
+      <li>To enhance user experience and develop new features.</li>
+      <li>To save your settings and preferences locally.</li>
+      <li>To analyze usage for performance improvements (anonymously).</li>
+    </ul>
+
+    <h2>3. Legal Basis for Data Processing</h2>
+    <ul>
+      <li>Your explicit consent when granting app permissions.</li>
+      <li>Legitimate interest to provide and improve our services.</li>
+      <li>Contractual necessity to fulfill terms of service.</li>
+      <li>Compliance with legal obligations when required.</li>
+    </ul>
+
+    <h2>4. Data Sharing</h2>
+    <p>We do not sell, rent, or trade your personal data with third parties. We may share data only:</p>
+    <ul>
+      <li>With your explicit consent.</li>
+      <li>With trusted service providers helping us operate the app under strict confidentiality and security terms.</li>
+      <li>To comply with legal or regulatory requirements, court orders, or subpoenas.</li>
+      <li>To protect our rights, property, or the safety of users or the public.</li>
+    </ul>
+
+    <h2>5. Data Security</h2>
+    <p>We implement reasonable and appropriate security measures to protect your data from unauthorized access, alteration, disclosure, or destruction. Data transmitted between the app and the server (if needed) is secured using standard encryption protocols.</p>
+    <p>However, no method of online transmission is 100% secure. While we strive to protect your data, absolute security cannot be guaranteed.</p>
+
+    <h2>6. Data Retention</h2>
+    <p>We retain your personal data only as long as necessary for the purposes mentioned unless legally required to retain it longer. When the app is uninstalled, all locally stored data is deleted.</p>
+
+    <h2>7. Children's Privacy</h2>
+    <p>Our app is not intended for children under 13 years, and we do not knowingly collect data from them. If you believe a child has provided us with personal info, please contact us to delete it.</p>
+
+    <h2>8. Required Permissions</h2>
+    <ul>
+      <li>Access contacts (optional, to enhance search).</li>
+      <li>Access call logs (to display call history).</li>
+      <li>Manage phone calls (for caller ID features).</li>
+      <li>Internet access (to search for caller info online).</li>
+    </ul>
+
+    <h2>9. User Rights</h2>
+    <ul>
+      <li>Access and review your personal data.</li>
+      <li>Correct or update inaccurate data.</li>
+      <li>Delete your data ("right to be forgotten").</li>
+      <li>Object to or restrict data processing.</li>
+      <li>Data portability.</li>
+      <li>Withdraw consent at any time.</li>
+    </ul>
+    <p>These rights can be exercised via the app settings or by contacting us. You may revoke permissions via device settings; features not requiring them remain usable.</p>
+
+    <h2>10. Privacy Law Compliance</h2>
+    <ul>
+      <li>GDPR (for EU users)</li>
+      <li>CCPA (for California users)</li>
+      <li>Other applicable privacy laws</li>
+    </ul>
+
+    <h2>11. Changes to the Privacy Policy</h2>
+    <p>This policy may be updated to reflect changes in our practices or for legal, operational, or regulatory reasons. We will notify you of significant changes through in-app notices or other means.</p>
+
+    <h2>12. Contact Us</h2>
+    <div class="contact">
+      <p>If you have any questions or concerns about this policy, please contact us at:</p>
+      <p><strong>Email:</strong> hmhhmhhmh55@gmail.com</p>
+      <p>We will respond as soon as possible.</p>
+    </div>
+
+    <h2>13. Your Consent</h2>
+    <p>By using "Radar Communications", you consent to the collection and use of data as outlined. If you disagree, please do not use the app.</p>
+
+    <p>© 2025 Radar Communications. All rights reserved.</p>
   </div>
 
-  <div class="footer">
-    &copy; 2025 Radar Communications. All rights reserved.
-  </div>
+  <script>
+    function switchLanguage() {
+      const html = document.getElementById('html-root');
+      const arabic = document.getElementById('arabic-content');
+      const english = document.getElementById('english-content');
+      const button = document.querySelector('.lang-switch button');
 
+      if (html.lang === 'ar') {
+        html.lang = 'en';
+        html.dir = 'ltr';
+        arabic.style.display = 'none';
+        english.style.display = 'block';
+        button.textContent = 'العربية';
+        document.title = "Privacy Policy - Radar Communications";
+      } else {
+        html.lang = 'ar';
+        html.dir = 'rtl';
+        arabic.style.display = 'block';
+        english.style.display = 'none';
+        button.textContent = 'English';
+        document.title = "سياسة الخصوصية - رادار الاتصالات";
+      }
+    }
+  </script>
 </body>
 </html>
